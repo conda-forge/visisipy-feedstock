@@ -1,5 +1,5 @@
 {% set name = "visisipy" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/visisipy-{{ version }}.tar.gz
-  sha256: 47c08335add09a3cffdd784d3aa385f375b8b1e65bb1184aa382fadba106bd45
+  sha256: a00634a09462cfea1d41dfaa6a879ab8ba1609b36b0c5577e3f125bd80258f8a
 
 build:
   noarch: python
