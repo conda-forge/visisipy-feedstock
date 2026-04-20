@@ -1,5 +1,5 @@
 {% set name = "visisipy" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/visisipy-{{ version }}.tar.gz
-  sha256: a00634a09462cfea1d41dfaa6a879ab8ba1609b36b0c5577e3f125bd80258f8a
+  sha256: 47dea8e9098c8dd411dc5f1f1faa36f30f09e29f74553635e0a3606cbcd071e0
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - matplotlib-base
     - numba >=0.60.0
     - numpy
-    - optiland >=0.5.8
+    - optiland >=0.6.0,<0.7.0
     - scipy
     - typing_extensions >=4.12.2
     - zospy >=2.1.2
@@ -43,7 +43,7 @@ about:
   home: https://github.com/MREYE-LUMC/visisipy
   summary: Accessible vision simulations in Python.
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE.txt
   doc_url: https://visisipy.readthedocs.io/
   dev_url: https://github.com/MREYE-LUMC/visisipy
 
