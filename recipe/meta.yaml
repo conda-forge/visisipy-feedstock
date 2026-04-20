@@ -25,7 +25,7 @@ requirements:
     - matplotlib-base
     - numba >=0.60.0
     - numpy
-    - optiland >=0.5.8
+    - optiland >=0.6.0,<0.7.0
     - scipy
     - typing_extensions >=4.12.2
     - zospy >=2.1.2
