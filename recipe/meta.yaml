@@ -43,7 +43,7 @@ about:
   home: https://github.com/MREYE-LUMC/visisipy
   summary: Accessible vision simulations in Python.
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE.txt
   doc_url: https://visisipy.readthedocs.io/
   dev_url: https://github.com/MREYE-LUMC/visisipy
 
