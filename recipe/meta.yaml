@@ -21,11 +21,11 @@ requirements:
     - versioningit
     - pip
   run:
-    - python >={{ python_min }},<3.14
+    - python >={{ python_min }},<3.15
     - matplotlib-base
     - numba >=0.60.0
     - numpy
-    - optiland >=0.6.0,<0.7.0
+    - optiland ==0.6.3
     - scipy
     - typing_extensions >=4.12.2
     - zospy >=2.1.2
