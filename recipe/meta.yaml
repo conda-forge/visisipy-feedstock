@@ -1,5 +1,5 @@
 {% set name = "visisipy" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/visisipy-{{ version }}.tar.gz
-  sha256: 217ae51ba503086d01557c1ff22cd1ae7f72c7f07dee2ed40c3cdc08f7233885
+  sha256: 1fa269bf167de4707d2b415d31a6d183911cb68a698f451dc9a6e89babc9632d
 
 build:
   noarch: python
